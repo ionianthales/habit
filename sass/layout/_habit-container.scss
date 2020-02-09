@@ -1,0 +1,46 @@
+.habit-container {
+    // border: solid red;
+    width: 70%;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: $color-dark-1;
+}
+
+.habit-container__main {
+    // border: solid red;
+    height: 30rem;
+    margin-top: 3rem;
+    background-color: $color-dark-2;
+    display: flex;
+}
+
+.habit-container__main-list {
+    border-right: 0.05rem solid black;
+    flex: 1;
+}
+.habit-container__main-progress {
+    // border: solid red;
+    flex: 3;
+}
+.habit-container__add-btn {
+    border-bottom: 0.05rem solid black;
+    height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color-dark-1;
+    }
+}
+
+.habit-container__main-item {
+    // text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color-dark-1;
+    }
+}

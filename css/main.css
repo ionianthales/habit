@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap");
+html {
+  height: 100%;
+  font-size: 10px; }
+
+body {
+  background-color: black;
+  height: 100%;
+  margin: 0;
+  color: whitesmoke;
+  font-family: 'PT Sans Narrow', sans-serif; }
+
+.navtainer {
+  margin: 0 auto;
+  width: 70%;
+  height: 50px;
+  background-color: #272727; }
+
+.navtainer__logo-box {
+  display: inline-block;
+  height: 100%;
+  width: 100px;
+  font-size: 3rem;
+  text-align: center;
+  padding: 0; }
+
+.navtainer__ul {
+  float: right;
+  margin: 0;
+  height: 100%;
+  font-size: 2rem;
+  content: "";
+  clear: both; }
+
+.navtainer__li {
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 1rem; }
+  .navtainer__li:not(:first-child) {
+    margin-right: 5rem; }
+
+.habit-container {
+  width: 70%;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: #121212; }
+
+.habit-container__main {
+  height: 30rem;
+  margin-top: 3rem;
+  background-color: #272727;
+  display: flex; }
+
+.habit-container__main-list {
+  border-right: 0.05rem solid black;
+  flex: 1; }
+
+.habit-container__main-progress {
+  flex: 3; }
+
+.habit-container__add-btn {
+  border-bottom: 0.05rem solid black;
+  height: 3rem;
+  text-align: center;
+  font-size: 2rem;
+  cursor: pointer; }
+  .habit-container__add-btn:hover {
+    background-color: #121212; }
+
+.habit-container__main-item {
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer; }
+  .habit-container__main-item:hover {
+    background-color: #121212; }
